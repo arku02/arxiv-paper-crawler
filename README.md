@@ -16,8 +16,10 @@ AIPE 期中專案。抓取 [arXiv](https://arxiv.org/) 上的論文資料，整�
 Python 3.12 以上（專案的 `.venv` 是 3.13.7）、MySQL 8.0 以上。
 
 ```bash
-pip install requests beautifulsoup4 lxml pandas pymysql
+pip install -r requirements.txt
 ```
+
+（各套件的確切版本見 `requirements.txt`。）
 
 ## 設定
 
@@ -82,6 +84,7 @@ crawler.close_db()
 | `arxiv_crawler_oopandsql1.ipynb` | 分步驟講解版，從發送請求一路推導到 OOP 封裝，附文字說明 |
 | `arxiv1.ipynb` | 開發草稿，保留當時的執行結果 |
 | `config.ini.example` | 資料庫設定範本 |
+| `requirements.txt` | 套件相依清單 |
 | `cv_papers_results=2.csv` | 早期測試輸出的範例資料 |
 | `archive/` | 開發過程的中間版本，另有 README 說明各版差異 |
 

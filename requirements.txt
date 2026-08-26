@@ -1,0 +1,8 @@
+# 本專案開發時使用的套件版本（Python 3.13.7）
+# 安裝：pip install -r requirements.txt
+
+requests==2.34.0          # 呼叫 arXiv API
+beautifulsoup4==4.14.3    # 解析回傳的 Atom XML
+lxml==6.1.0               # BeautifulSoup 的 xml parser
+pandas==3.0.3             # 整理資料、匯出 CSV
+PyMySQL==1.2.0            # 連線 MySQL
