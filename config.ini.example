@@ -1,0 +1,8 @@
+# 複製這個檔案為 config.ini，並填入你自己的資料庫連線資訊。
+# config.ini 已被 .gitignore 忽略，不會進版控。
+[DB]
+host = localhost
+user = root
+password = YOUR_PASSWORD_HERE
+port = 3306
+database = arxiv_db

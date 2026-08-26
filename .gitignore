@@ -1,0 +1,24 @@
+# --- 機密設定 ---
+config.ini
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- 虛擬環境 ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- 編輯器 / 系統 ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- 輸出檔（如需版控可自行移除此行）---
+*.log
